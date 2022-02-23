@@ -1,0 +1,124 @@
+
+.info_area{
+    width: 100%;
+    height: 50vh;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3em;
+    background-color: whitesmoke;
+}
+
+.text{
+    width: 50%;
+    height: auto;
+}
+
+.info_area img{
+    width: 20em;
+    height: 15em;
+}
+
+@media (max-width :650px ) {
+    .info_area img{
+        width: 10em;
+        height: 10em;
+    } 
+
+    .text h2{
+        font-size: 1.5em;
+    }
+
+}
+
+
+.info_sup{
+    width: 100%;
+    height: 100px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_sup span{
+    font-size:2em;
+    font-weight: bold;
+}
+
+.info_sup ul {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-left: -50px;
+    align-items: center;
+    
+}
+@media (max-width :450px ) {
+    .info_sup ul {
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
+        margin-left: -5px;
+        align-items: center;
+        
+    }
+}
+
+/* ---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+
+.service_area{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    display: flex;
+    /* align-content: center; */
+    justify-content: space-around;
+    background-color: rgb(22, 18, 18);
+    background-color: rgba(148, 75, 221, 0.4);
+}
+
+.service_area_item{
+    width: 180px;
+    height: 325px;
+    padding: 0px 5px;
+    background-color: cyan;
+    margin-top: 15px;
+    margin:15px 4px;
+}
+.service_area_item img{
+    width: 170px;
+    height: 140px;
+}
+.service_area_item h3{
+    margin-top: 30px;
+    font-size: medium;
+    padding: 5px;
+}
+.service_area_item p{
+    margin-top: 0px;
+    font-size: 0.9em;
+    padding: 0px 5px;
+}
+.service_area_text{
+    width: 180px;
+}
+
+@media (max-width: 800px) {
+    .service_area{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        display: flex;
+        /* align-content: center; */
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: rgb(22, 18, 18);
+        background-color: rgba(148, 75, 221, 0.4);
+    }
+}
