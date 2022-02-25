@@ -64,8 +64,11 @@ header{
 /* media querry */
 
 @media (max-width : 700px) {
-    .header_info{
+    #supp{
         display: none;
+    }
+    .header_info_items{
+        font-size: 0.6rem;
     }
 
     .header_info ::before{
