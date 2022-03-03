@@ -7,7 +7,6 @@
     padding: 0px;
 }
 
-
 /* Entete */
 header{
     width: 100%;
@@ -15,7 +14,7 @@ header{
     height: auto;
     /* position: relative;
     top: 0px; */
-    background-image: url(/img/commerce.png);
+    background-image: url(/commerce.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -151,6 +150,10 @@ header{
     margin-left: 35px; */
     padding: 25px 40px;
     color: white;
+}
+
+.header_text p {
+    font-size: larger;
 }
 
 .header_container_text{
